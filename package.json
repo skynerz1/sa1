@@ -1,0 +1,16 @@
+{
+    "name": "sa1",
+    "version": "1.0.0",
+    "private": true,
+    "type": "module",
+    "description": "عُقدة سحب موازية — تستدعي api/node.php على السيرفر الأصلي",
+    "main": "index.js",
+    "engines": {
+        "node": ">=18"
+    },
+    "scripts": {
+        "start": "node index.js",
+        "cron": "node api/cron.js"
+    },
+    "dependencies": []
+}

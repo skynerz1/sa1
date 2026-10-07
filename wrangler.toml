@@ -1,0 +1,11 @@
+# wrangler.toml — Cloudflare Workers
+name = "sa1"
+main = "worker.js"
+compatibility_date = "2024-01-01"
+compatibility_flags = ["nodejs_compat"]
+
+[triggers]
+crons = ["* * * * *"]
+
+[vars]
+NODE_NAME = "sa1"
